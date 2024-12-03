@@ -1,25 +1,39 @@
-
-
-.nav-container{
-color: black;
-background-color: rgb(131, 77, 131);
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 2px;
-
-
-
+.nav-container {
+  color: black;
+  margin-inline: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px;
 }
-h1{
-    font-size: large;
+h1 {
+  font-size: large;
+  color: white;
 }
-.nav-button{
-    border-radius: 15px;
-    margin-right: 30px;
-    border: none;
-    cursor: pointer;
-    width: 150px;
-    height: 30px;
 
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #7038fa 0%,
+    #7038fa 51%,
+    #7038fa 100%
+  );
+}
+.btn-grad {
+  margin: 10px;
+  padding: 10px 10px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
 }
