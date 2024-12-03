@@ -3,6 +3,7 @@ import { useState } from 'react'
 import './App.css'
 
 import Navbar from './pages/Navbar/Navbar'
+import Partners from "./pages/Partner/Partners"
 
 
 
@@ -23,6 +24,8 @@ function App() {
           <h2 style={{ color: '#7038FA', margin: 0 }}>BUDS X Supercomp</h2>
         </div>
       </div>
+
+      <Partners />
     </div>
   )
 }
