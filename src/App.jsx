@@ -4,9 +4,13 @@ import './App.css'
 
 import Navbar from './pages/Navbar/Navbar'
 
-function App () {
+
+
+
+function App() {
   return (
     <div>
+      <Navbar />
       <div
         style={{
           display: 'flex',
