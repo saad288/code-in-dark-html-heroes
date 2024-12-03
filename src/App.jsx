@@ -1,6 +1,7 @@
 import './App.css'
 
 import Navbar from './pages/Navbar/Navbar'
+import Competitions from "./pages/Competitions/Competitions"
 import Partners from './pages/Partner/Partners'
 
 import bg1 from './assets/img/bg-1.png'
@@ -54,6 +55,7 @@ function App () {
       />
 
       <Partners />
+      <Competitions />
     </div>
   )
 }
