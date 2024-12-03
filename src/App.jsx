@@ -4,7 +4,7 @@ import './App.css'
 
 import Navbar from './pages/Navbar/Navbar'
 import Partners from "./pages/Partner/Partners"
-
+import Competitions from "./pages/Competitions/Competitions"
 
 
 
@@ -26,6 +26,7 @@ function App() {
       </div>
 
       <Partners />
+      <Competitions />
     </div>
   )
 }
