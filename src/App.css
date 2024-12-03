@@ -11,7 +11,20 @@ body {
   margin: 0px;
   padding: 0px;
   background-color: black;
+  font-family: 'Aeonik-regular';
 }
 
 .bg-1 {
+}
+
+@font-face {
+  font-family: 'Aeonik-regular';
+  src: local('Aeonik-regular'),
+    url(./assets/fonts/AeonikTRIAL-Regular.otf) format('woff');
+}
+
+@font-face {
+  font-family: 'Aeonik-bold';
+  src: local('Aeonik-bold'),
+    url(./assets/fonts/AeonikTRIAL-Bold.otf) format('woff');
 }
