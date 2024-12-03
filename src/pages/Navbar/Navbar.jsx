@@ -1,7 +1,7 @@
 const Navbar = () => {
   return (
     <div style={{ background: 'red' }}>
-      <h1>Hiiii</h1>
+      <h1 style={{ mb: 0 }}>Hiiii</h1>
     </div>
   )
 }

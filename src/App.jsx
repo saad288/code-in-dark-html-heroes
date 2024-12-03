@@ -1,9 +1,8 @@
 import { useState } from 'react'
 
+import './App.css'
+
 import Navbar from './pages/Navbar/Navbar'
-import {} from "./pages/Footer"
-
-
 
 function App () {
   return (
