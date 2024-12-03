@@ -1,13 +1,14 @@
 import './App.css'
 
 import Navbar from './pages/Navbar/Navbar'
-import Competitions from "./pages/Competitions/Competitions"
+import Competitions from './pages/Competitions/Competitions'
 import Partners from './pages/Partner/Partners'
 import Steps from './pages/Steps/Steps'
 
 import bg1 from './assets/img/bg-1.png'
+import bg2 from './assets/img/bg-2.png'
 
-function App() {
+function App () {
   return (
     <div style={{ position: 'relative' }}>
       <Navbar />
@@ -52,7 +53,18 @@ function App() {
           width: '100%',
           height: 500,
           position: 'absolute',
-          top: 200,
+          top: 210,
+          zIndex: -1
+        }}
+      />
+
+      <img
+        src={bg2}
+        style={{
+          width: '100%',
+          height: 500,
+          position: 'absolute',
+          bottom: 0,
           zIndex: -1
         }}
       />
@@ -75,7 +87,8 @@ function App() {
         style={{
           display: 'flex',
           alignItems: 'center',
-          justifyContent: 'center'
+          justifyContent: 'center',
+          marginTop: 380
         }}
       >
         <h2 style={{ color: 'white', margin: 0, marginBottom: 4 }}>
@@ -84,7 +97,6 @@ function App() {
       </div>
 
       <Steps />
-
 
       <div
         style={{
@@ -99,9 +111,6 @@ function App() {
       </div>
 
       <Competitions />
-
-
-
     </div>
   )
 }
