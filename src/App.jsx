@@ -1,7 +1,6 @@
 import './App.css'
 
 import Navbar from './pages/Navbar/Navbar'
-import Partners from "./pages/Partner/Partners"
 import Competitions from "./pages/Competitions/Competitions"
 import Partners from './pages/Partner/Partners'
 
